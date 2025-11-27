@@ -332,5 +332,5 @@ def reschedule_appointment(appointment_id: str, new_date: str):
 def take_message(message: str):
     return "Message taken successfully."
 
-def transfer_to_human(message: str):
+def escalate_to_human(message: str):
     return "Transferring to human staff."
